@@ -27,10 +27,28 @@ public class Ex01TauSahagun {
         String company2 = "CBS";
         String company3 = "Fox";
         
-        System.out.printf("Show 1");
-        System.out.printf("Title: " + title1);
-        System.out.printf("Number of seasons: " + seasons1);
-        System.out.printf("First aired by: " + company1);
+        System.out.println("Show 1");
+        System.out.println("Title: " + title1);
+        System.out.println("Number of seasons: " + seasons1);
+        System.out.println("First aired by: " + company1);
+        
+        System.out.println("Show 2");
+        System.out.println("Title: " + title2);
+        System.out.println("Number of seasons: " + seasons2);
+        System.out.println("First aired by: " + company2);
+        
+        System.out.println("Show 3");
+        System.out.println("Title: " + title3);
+        System.out.println("Number of seasons: " + seasons3);
+        System.out.println("First aired by: " + company3);
+        
+        int totalseasons = seasons1 + seasons2 + seasons3;
+        boolean isLonger = true; 
+        boolean isSameCompany = false;
+        
+        System.out.println("Total number of seasons: " + totalseasons);
+        System.out.println("Criminal Minds has the most seasons: " + isLonger);
+        System.out.println("The shows were first aired by the same company: " + isSameCompany);
     }
     
 }
